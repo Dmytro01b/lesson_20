@@ -1988,6 +1988,12 @@ textarea.input {
   display: none !important;
 }
 
+@media (max-width: 850px) {
+  .decoration__item--5 {
+    display: none;
+  }
+}
+
 @media (max-width: 710px) {
   .column {
     -ms-grid-columns: 1fr 1fr;
@@ -2003,6 +2009,18 @@ textarea.input {
   }
 
   .column__item:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 620px) {
+  .list__link {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .action__button {
     display: none;
   }
 }
@@ -2032,6 +2050,12 @@ textarea.input {
 
   .column {
     display: block;
+  }
+}
+
+@media (max-width: 420px) {
+  .list__link {
+    font-size: 16px;
   }
 }
 
@@ -2589,59 +2613,6 @@ textarea.input {
   }
 }
 
-@media (max-width: 47.99875em) and (max-width: 850px) {
-  .decoration__item--5 {
-    display: none;
-  }
-}
-
-@media (max-width: 47.99875em) and (max-width: 620px) {
-  .list__link {
-    font-size: 20px;
-  }
-
-  .testomonial {
-    max-width: 320px;
-  }
-
-  .block-bottom__slider {
-    -ms-grid-columns: auto 320px auto;
-    grid-template-columns: auto 320px auto;
-  }
-}
-
-@media (max-width: 47.99875em) and (max-width: 550px) {
-  .action__button {
-    display: none;
-  }
-
-  .cards__item {
-    display: block;
-  }
-
-  .cards__content {
-    padding-left: 32px;
-  }
-
-  .third-section__heading {
-    display: block;
-  }
-
-  .third-section__text {
-    margin-bottom: 8px;
-  }
-
-  .action__button {
-    display: none;
-  }
-}
-
-@media (max-width: 47.99875em) and (max-width: 420px) {
-  .list__link {
-    font-size: 16px;
-  }
-}
-
 @media (max-width: 47.99875em) and (max-width: 740px) {
   .tabs__navigation {
     display: -webkit-box;
@@ -2742,6 +2713,39 @@ textarea.input {
   }
 
   .statictics__item:nth-child(4) {
+    display: none;
+  }
+}
+
+@media (max-width: 47.99875em) and (max-width: 620px) {
+  .testomonial {
+    max-width: 320px;
+  }
+
+  .block-bottom__slider {
+    -ms-grid-columns: auto 320px auto;
+    grid-template-columns: auto 320px auto;
+  }
+}
+
+@media (max-width: 47.99875em) and (max-width: 550px) {
+  .cards__item {
+    display: block;
+  }
+
+  .cards__content {
+    padding-left: 32px;
+  }
+
+  .third-section__heading {
+    display: block;
+  }
+
+  .third-section__text {
+    margin-bottom: 8px;
+  }
+
+  .action__button {
     display: none;
   }
 }
