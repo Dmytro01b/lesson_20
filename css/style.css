@@ -665,6 +665,8 @@ textarea.input {
 }
 
 .main-section__play {
+  display: inline-block;
+  max-width: 160px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
